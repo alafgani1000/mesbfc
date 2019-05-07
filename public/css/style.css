@@ -1,0 +1,170 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v15-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+        url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/open-sans-v15-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg');
+    /* Legacy iOS */
+}
+
+h2 {
+    border-bottom: 1px solid #000;
+}
+
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    background: #f0f0f0;
+}
+
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    width: 140px;
+    font-weight: bold;
+}
+
+.mega-dropdown {
+    position: static !important;
+    width: 100%;
+}
+
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+.mega-dropdown-menu>li>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.mega-dropdown-menu>li>ul>li {
+    list-style: none;
+}
+
+.mega-dropdown-menu>li>ul>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #999;
+    white-space: normal;
+}
+
+.mega-dropdown-menu>li ul>li>a:hover,
+.mega-dropdown-menu>li ul>li>a:focus {
+    text-decoration: none;
+    color: #444;
+    background-color: #f5f5f5;
+}
+
+.mega-dropdown-menu .dropdown-header {
+    color: #428bca;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*----------*/
+
+/*Posisi tombol Detail Edit Delete*/
+.box-button {
+    display: inline-block;
+}
+
+
+
+/* Jumlah siswa, pagination dan tombol tambah siswa */
+.table-nav,
+.tombol-nav {
+    display: block;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.tombol-nav {
+    margin-top: 10px;
+}
+
+.table-nav {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.jumlah-data,
+.paging {
+    width: 50%;
+    height: 50px;
+    display: block;
+}
+
+.jumlah-data {
+    float: left;
+    padding-top: 15px;
+}
+
+.paging {
+    float: right;
+    text-align: right;
+}
+
+.paging ul.pager,
+.paging ul.pagination {
+    text-align: right;
+}
+
+ul.pagination,
+ul.pager {
+    margin-top: 8px;
+}
+
+/* Form Pencarian */
+#pencarian {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+/* Style the top navigation bar*/
+.navbar {
+    display: flex;
+
+}
+
+
+/**/
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
